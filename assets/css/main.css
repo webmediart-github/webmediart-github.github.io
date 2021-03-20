@@ -3127,6 +3127,7 @@ input, select, textarea {
 				padding: 0 0.2em;
 				font-size: 3.5em;
 				font-weight: 500;
+				color: rgba(255, 255, 255, 0.85);
 			}
 
 			#header.alt .logo {
