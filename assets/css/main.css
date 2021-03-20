@@ -3361,7 +3361,7 @@ input, select, textarea {
 			}
 
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 780px) {
 
 			#nav {
 				display: none;
