@@ -147,7 +147,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 365px) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
@@ -3228,7 +3228,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 365px) {
 
 			#header {
 				padding: 2.5em 1em 0.1em 1em ;
@@ -3699,7 +3699,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 365px) {
 
 			#main {
 				border-radius: 0;
@@ -3817,7 +3817,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 365px) {
 
 			#wrapper {
 				max-width: 100%;
