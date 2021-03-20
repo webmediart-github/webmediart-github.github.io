@@ -37,3 +37,34 @@ p.important {
 .copyright i{
 	padding: 0 0.5em;
 }
+
+ul.alt li {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 50%;
+	text-align: left;
+}
+	ul.alt li span{
+		width: 1.25em;
+	}
+	
+	ul.alt li b{
+		padding: 0 0.2em 0 0.5em;
+		flex-grow: 1;
+	}
+	
+	ul.alt li p{
+		margin: 0;
+	}
+	
+	@media screen and (max-width: 736px) {
+		ul.alt li {
+			width: 99%;
+		}
+	}
+	
+ul.features li .icon:before {
+	width: 1.6em;
+	height: 1.6em;
+	line-height: 1.6em;
+}
