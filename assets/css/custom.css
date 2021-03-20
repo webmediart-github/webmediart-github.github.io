@@ -1,5 +1,35 @@
-p.important .image.left span {
-	width: 3em;
-	height: 3em;
-	color: #CC3333;
+p.important {
+	display: block;
+	text-align: left;
+	font-style: italic;
+	padding: 1em 2em 0 2em;
 }
+
+	p.important .image.left{
+		margin: 0 2em 0 0;
+		top: -2em;
+	}
+	
+	p.important .image.left span {
+		font-size: 5em;
+		color: #DD6666;
+	}
+	
+	@media screen and (max-width: 1280px) {
+		p.important .image.left{
+			top: -1.5em;
+		}
+		p.important .image.left span {
+			font-size: 4em;
+		}
+	}
+	@media screen and (max-width: 915px) {
+		p.important .image.left{
+			top: -1em;
+		}
+	}
+	@media screen and (max-width: 628px) {
+		p.important .image.left{
+			top: 0;
+		}
+	}
