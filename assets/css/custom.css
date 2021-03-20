@@ -33,3 +33,7 @@ p.important {
 			top: 0;
 		}
 	}
+	
+.copyright i{
+	padding: 0 0.5em;
+}
