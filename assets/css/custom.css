@@ -80,7 +80,7 @@ ul.features li .icon:before {
 	}
 }
 
-#header.alt #countdown {
+/* #header.alt #countdown {
 	-moz-transition: opacity 1s ease;
 	-webkit-transition: opacity 1s ease;
 	-ms-transition: opacity 1s ease;
@@ -90,4 +90,4 @@ ul.features li .icon:before {
 	-ms-transition-delay: 0.5s;
 	transition-delay: 0.5s;
 	opacity: 1;
-}
+} */
