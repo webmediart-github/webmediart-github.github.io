@@ -65,9 +65,39 @@ ul.alt li {
 		margin: 0 0 0 2.3em;
 	}
 	
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1050px) {
 		ul.alt li {
-			width: 99%;
+			width: 70%;
+		}
+	}
+	
+	@media screen and (max-width: 980px) {
+		ul.alt li {
+			width: 50%;
+		}
+	}
+	
+	@media screen and (max-width: 750px) {
+		ul.alt li {
+			width: 60%;
+		}
+	}
+	
+	@media screen and (max-width: 600px) {
+		ul.alt li {
+			width: 70%;
+		}
+	}
+	
+	@media screen and (max-width: 550px) {
+		ul.alt li {
+			width: 80%;
+		}
+	}
+	
+	@media screen and (max-width: 480px) {
+		ul.alt li {
+			width: 100%;
 		}
 	}
 
