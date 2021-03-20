@@ -62,6 +62,10 @@ ul.alt li {
 			width: 99%;
 		}
 	}
+
+/* ul.features li {
+	text-align: left;
+} */
 	
 ul.features li .icon:before {
 	width: 1.6em;
