@@ -65,7 +65,7 @@ p.important {
 ul.alt li {
 	display: flex;
 	flex-wrap: nowrap;
-	width: 60%;
+	width: 70%;
 	text-align: left;
 }
 	ul.alt li span{
@@ -91,7 +91,7 @@ ul.alt li {
 	
 	@media screen and (max-width: 1050px) {
 		ul.alt li {
-			width: 70%;
+			width: 80%;
 		}
 	}
 	
