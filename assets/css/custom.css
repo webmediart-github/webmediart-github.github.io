@@ -1,3 +1,37 @@
+.plan {
+	margin: 0 0 1em 1.5em;
+}
+.plan, .plan img {
+	float: right;
+	max-width: 100%
+}
+
+	@media screen and (max-width: 1680px) {
+		.plan {
+			max-width: 55%
+		}
+	}
+	
+	@media screen and (max-width: 1280px) {
+		.plan {
+			max-width: 50%
+		}
+	}
+	
+	@media screen and (max-width: 980px) {
+		.plan {
+			max-width: 100%;
+			margin: 2em 5em;
+		}
+	}
+	
+	@media screen and (max-width: 780px) {
+		.plan {
+			max-width: 90%;
+			margin: 1em 2em;
+		}
+	}
+
 p.important {
 	display: block;
 	text-align: left;
@@ -120,6 +154,10 @@ ul.features li .icon:before {
 	#nav ul li a{
 		padding: 0 0.85em;
 	}
+}
+
+td {
+	text-align: left;
 }
 
 /* #header.alt #countdown {
