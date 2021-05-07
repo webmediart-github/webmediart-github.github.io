@@ -212,10 +212,10 @@ ul.features li h3{
 	font-weight: bold;
 }
 
-#silja, #kenneth{
+#silja a, #kenneth a{
 	border: 0px
 }
 
-#silja:hover, #kenneth:hover{
+#silja a:hover, #kenneth a:hover{
 	color: #FFF
 }
