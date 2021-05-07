@@ -216,6 +216,6 @@ ul.features li h3{
 	border: 0px
 }
 
-#silja a:hover, #kenneth a:hover{
+#silja:hover a, #kenneth:hover a, , #kenneth a:hover{
 	color: #FFF
 }
