@@ -57,7 +57,7 @@
 	}
 	
 	@media screen and (max-width: 980px) {
-		.plan {
+		.plan, .photographer {
 			max-width: 100%;
 			margin: 2em 6em;
 		}
