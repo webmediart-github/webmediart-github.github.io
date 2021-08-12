@@ -33,12 +33,36 @@
 		clip: initial;
 		opacity: 1;
 		visibility: visible;
-	  }
 	}
 
-.photographer {
-	float: left; 
-	margin: 0.5em 0 1.5em 1.75em;
+#photos .image.left {
+	padding-right: 1em;
+	margin: 0 1em 1em 0;
+}
+	@media screen and (max-width: 980px) {
+		#photos .image.left {
+			max-width: 25%;
+		}
+	}
+	@media screen and (max-width: 780px) {
+		#photos .image.left {
+			max-width: 50%;
+			float: none;
+			margin: 0 25% 1em 25%;
+		}
+		#photos .content.right {
+			float: none;
+		}
+	}
+	@media screen and (max-width: 365px) {
+		#photos .image.left {
+			max-width: 90%;
+			margin: 0 5% 1em 5%;
+		}
+	}
+
+#photos img {
+	 border-radius: 2em
 }
 
 .plan {
@@ -62,7 +86,7 @@
 	}
 	
 	@media screen and (max-width: 980px) {
-		.plan, .photographer {
+		.plan{
 			max-width: 100%;
 			margin: 2em 6em;
 		}
