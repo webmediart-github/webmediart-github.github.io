@@ -67,6 +67,7 @@
 }
 
 #programm .image.left.small {
+	margin: 0 2em 0 3em;
 	max-width: 20%;
 }
 	@media screen and (max-width: 780px) {
@@ -88,6 +89,9 @@
 			max-width: 100%;
 		}
 	}
+#programm .content.right {
+	padding: 0 3em 0 0;
+}
 
 .plan {
 	margin: 0.5em 0 1.5em 1.75em;
